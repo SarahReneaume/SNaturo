@@ -4,22 +4,93 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-// Paddings
-.padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+.topbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  }
+
+.top-contact-infos{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
 }
 
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  background-color: #9BBD9C;
+  font-weight: 500;
+  color: white;
+  padding: 20px;
+  margin: 0;
 }
-.bg-email {
-  background: #aeaeae;
+
+.adjusted-container{
+  margin: 0 60px;
 }
-.bg-twitter {
-  background: #00a3e1;
+
+.slider{
+  height: 450px;
+  background-color: #E6E6E6;
 }
-.bg-facebook {
-  background: #3b5998;
+
+.expertise-section{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  .expertise-picto{
+  padding: 40px 0;
+  font-size: 25px;
+  }
+  .expertise-bloc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  }
 }
+
+.presentation-section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 0px;
+  .presentation-item {
+  padding: 0 20px;
+  }
+  .presentation-text{
+    line-height: 1.5;
+  }
+  .presentation-video{
+    width: 50%;
+    border: solid;
+  }
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  height: 160px;
+  background-color: #E6E6E6;
+  color: grey;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
