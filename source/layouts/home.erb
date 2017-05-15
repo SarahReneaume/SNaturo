@@ -30,8 +30,10 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial 'layouts/partials/navbar' %>
-      <%= yield %>
+    <div class="page-wrap">
+      <%= partial 'layouts/partials/navbar' %>
+        <%= yield %>
+    </div>
     <%= partial 'layouts/partials/footer' %>
 
        <!--Import jQuery before materialize.js-->

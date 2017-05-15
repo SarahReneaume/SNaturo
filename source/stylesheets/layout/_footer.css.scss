@@ -1,10 +1,17 @@
-.footer{
-  width: 100%;
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -80px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.page-footer, .page-wrap:after {
+  height: 100px;
   text-align: center;
-  height: 160px;
-  background-color: #E6E6E6;
-  color: grey;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  margin-top: 50px;
+}
+.page-footer {
+  background: #E6E6E6;
 }

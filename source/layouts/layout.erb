@@ -32,11 +32,15 @@
   </head>
 
   <body class="<%= page_classes %>">
+
+  <div class="page-wrap">
     <%= partial 'layouts/partials/navbar' %>
 
     <div class="adjusted-container">
       <%= yield %>
     </div>
+
+  </div>
 
     <%= partial 'layouts/partials/footer' %>
 
