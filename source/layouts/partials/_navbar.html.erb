@@ -1,21 +1,24 @@
 
-<div class="topbar">
-  <div class="top-contact-infos">
-    <div class="infos-nom">
-      <div> Sylvie Lelièvre</div>
-      <div> Infirmière & Naturopathe</div>
+ <nav role="navigation">
+    <div class="nav-wrapper"><a id="logo-container" href="/" class="brand-logo">Sylvie Lelièvre</a>
+      <ul class="right hide-on-med-and-down">
+        <li><%= link_to "Accueil", "index.html", 'data-info': "index" %></li>
+        <li><%= link_to "Mes Spécialités", "specialites.html", 'data-info': "specialites" %></li>
+        <li><%= link_to "Mes Ateliers", "ateliers.html", 'data-info': "ateliers" %></li>
+        <li><%= link_to "Mon Parcours", "parcours.html", 'data-info': "parcours" %></li>
+        <li><%= link_to "Consultations", "consultations.html", 'data-info': "consultations" %></li>
+        <li><%= link_to "Contact", "contact.html", 'data-info': "contact" %></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><%= link_to "Accueil", "index.html", 'data-info': "index" %></li>
+        <li><%= link_to "Mes Spécialités", "specialites.html", 'data-info': "specialites" %></li>
+        <li><%= link_to "Mes Ateliers", "ateliers.html", 'data-info': "ateliers" %></li>
+        <li><%= link_to "Mon Parcours", "parcours.html", 'data-info': "parcours" %></li>
+        <li><%= link_to "Consultations", "consultations.html", 'data-info': "consultations" %></li>
+        <li><%= link_to "Contact", "contact.html", 'data-info': "contact" %></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-     <div class="infos-adresse">
-      <div> 30 rue de la Californie</div>
-      <div>06.13.50.05.82</div>
-    </div>
-  </div>
-  <div class="navbar">
-    <div><%= link_to "Accueil", "index.html", 'data-info': "index" %></div>
-    <div><%= link_to "Mes Spécialités", "specialites.html", 'data-info': "specialites" %></div>
-    <div><%= link_to "Mes Ateliers", "ateliers.html", 'data-info': "ateliers" %></div>
-    <div><%= link_to "Mon Parcours", "parcours.html", 'data-info': "parcours" %></div>
-    <div><%= link_to "Consultations", "consultations.html", 'data-info': "consultations" %></div>
-    <div><%= link_to "Contact", "contact.html", 'data-info': "contact" %></div>
-  </div>
-</div>
+  </nav>
+

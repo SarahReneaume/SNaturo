@@ -1,33 +1,13 @@
-.topbar{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Open Sans", sans-serif;
+nav{
+  background-color: $nav-green;
+  .brand-logo{
+    padding: 0 15px;
   }
-
-.top-contact-infos{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
 }
 
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  width: 100%;
-  background-color: #9BBD9C;
-  font-weight: 500;
-  color: white;
-  padding: 20px;
-  margin: 0;
+#nav-mobile{
   a{
-    text-decoration: none;
-    color: white;
+  color: $nav-green;
+  font-weight: 500;
   }
-  a:hover{
-      color: #445338;
-    }
 }
