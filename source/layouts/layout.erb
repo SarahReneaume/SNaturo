@@ -1,8 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
+    <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
@@ -25,8 +27,16 @@
   </head>
 
   <body class="<%= page_classes %>">
-
+    <%= partial 'layouts/partials/navbar' %>
     <%= yield %>
+    <%= partial 'layouts/partials/footer' %>
+
+       <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 
   </body>
 </html>
+
+
+
