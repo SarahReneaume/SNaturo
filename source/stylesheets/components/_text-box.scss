@@ -5,26 +5,47 @@
 }
 
 .flex-img{
-  width: 20%;
-  height: 500px;
+ width: 20%;
+}
+
+.flex-img-bigger{
+ width: 30%;
 }
 
 .flex-txt{
-  margin: 60px 60px 0 0 ;
   background-color: white;
-  padding : 0 30px;
+  padding : 30px 50px;
 }
 
 // Atelier look
 
 .banner-subpage{
-  height: 200px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  height: 250px;
   background-size: cover !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+// Consultation
+
+.border-left{
+  padding: 0 0 0 10px;
+  border-left:1px solid #9BBD9C;
+}
+
+
+.step-num{
+  font-size : 20px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #006E74;
+  opacity: 0.4;
+  margin-bottom : 15px;
+  padding: 5px 0;
 }
