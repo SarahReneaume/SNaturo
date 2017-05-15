@@ -31,11 +31,7 @@
 
   <body class="<%= page_classes %>">
     <%= partial 'layouts/partials/navbar' %>
-
-    <div class="adjusted-container">
       <%= yield %>
-    </div>
-
     <%= partial 'layouts/partials/footer' %>
 
        <!--Import jQuery before materialize.js-->
@@ -43,7 +39,3 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 
   </body>
-</html>
-
-
-

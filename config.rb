@@ -7,6 +7,7 @@
 #   config.output_style = :compact
 # end
 
+
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
