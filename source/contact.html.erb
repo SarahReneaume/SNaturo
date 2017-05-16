@@ -24,6 +24,7 @@ description: Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a 
       <div class="adresse-nantes">
         <p>1 rue Esnoult des Châtelets </p>
         <p>44200 NANTES</p>
+
       </div>
       <div class="adresse-les-herbiers">
         <p>3 rue des Arts </p>
@@ -32,9 +33,26 @@ description: Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a 
       </div>
     </div>
   </div>
-
-
 </div>
+
+<!-- Gmap integration test -->
+
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8JnU1NxMzAT2aOSFVo4iAqxu6X0fj2rI&callback=initMap"
+    async defer></script>
+
+
+<!-- end -->
+
 
 <br>
 <br>
