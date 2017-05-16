@@ -1,0 +1,46 @@
+.h3-less-margin{
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+form{
+  padding: 0 50px 0 0;
+}
+.form-control {
+  margin: 20px 0;
+  height: 150px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: gray;
+  border-radius: 4px;
+}
+
+.adresse{
+  display: flex;
+  justify-content: space-around;
+}
+
+#map1, #map2{
+    width: 100%;
+    height: 200px
+    background-color: grey;
+    padding-left: 30px;
+      }
+
+  .map-box{
+    display :flex;
+    flex-direction: column;
+  }
+
+  .map-txt{
+    p{
+      padding: 10px 0;
+      text-align: left;
+      font-weight: 400;
+    }
+  }
+
+
+
+
