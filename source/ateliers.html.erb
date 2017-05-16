@@ -3,7 +3,7 @@ layout: home
 title: Mes Ateliers Cru, Naturopathie et Micronutrition
 ---
 
-<div class="banner-subpage" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../images/cru-1.jpg');">
+<div class="banner-subpage" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(<%= image_path "cru-1.jpg" %>);" alt="Légumes crus">
   <h1 class= "white-text">Mes Ateliers</h1>
 </div>
 
@@ -11,23 +11,25 @@ title: Mes Ateliers Cru, Naturopathie et Micronutrition
 
   <h3>Je vous propose des ateliers autour du cru et de l'alimentation</h3>
   <br>
-
   <div class="row">
     <div class ="col s12 m3">
-      <img class="responsive-img" src="../images/Legumes.jpg" alt="légumes">
+      <%= image_tag 'Jus.jpg', class: "responsive-img", alt: "Jus" %>
     </div>
     <div class ="col s12 m9">
-   L'Alimentation vivante ou alimentation haute vitalité est une alimentation constituée de nourriture "vivante" 100 % naturelle : des graines germées, des fruits et légumes crus et fraîchement cueillis, des graines et fruits oléagineux pré-germés, des algues alimentaires, et des aliments n'ayant été ni cuits ni raffinés, les moins dénaturés possible. Ces aliments seront de préférence biologiques ou cultivés selon les règles de la bio-dynamie*, des végétaux non traités non issus d’hybridations ou de manipulations génétiques, dénués d'artifices de culture, ayant poussé sur un sol sain.
+      <h4>L'Atelier jus</h4>
+      <p>L'Alimentation vivante ou alimentation haute vitalité est une alimentation constituée de nourriture "vivante" 100 % naturelle : des graines germées, des fruits et légumes crus et fraîchement cueillis, des graines et fruits oléagineux pré-germés, des algues alimentaires, et des aliments n'ayant été ni cuits ni raffinés, les moins dénaturés possible. Ces aliments seront de préférence biologiques ou cultivés selon les règles de la bio-dynamie, faites des jus, faites des jus !</p>
     </div>
   </div>
 
-    <div class="row">
+  <div class="row">
     <div class ="col s12 m3">
-      <img class="responsive-img" src="../images/Ble.jpg" alt="blé">
+      <%= image_tag 'Etal.jpeg', class: "responsive-img", alt: "Au marché" %>
     </div>
     <div class ="col s12 m9">
-   L'Alimentation vivante ou alimentation haute vitalité est une alimentation constituée de nourriture "vivante" 100 % naturelle : des graines germées, des fruits et légumes crus et fraîchement cueillis, des graines et fruits oléagineux pré-germés, des algues alimentaires, et des aliments n'ayant été ni cuits ni raffinés, les moins dénaturés possible. Ces aliments seront de préférence biologiques ou cultivés selon les règles de la bio-dynamie*, des végétaux non traités non issus d’hybridations ou de manipulations génétiques, dénués d'artifices de culture, ayant poussé sur un sol sain.
+    <h4>L'Atelier cru</h4>
+      <p>L'Alimentation vivante ou alimentation haute vitalité est une alimentation constituée de nourriture "vivante" 100 % naturelle : des graines germées, des fruits et légumes crus et fraîchement cueillis, des graines et fruits oléagineux pré-germés, des algues alimentaires, et des aliments n'ayant été ni cuits ni raffinés, les moins dénaturés possible. Ces aliments seront de préférence biologiques ou cultivés selon les règles de la bio-dynamie, des végétaux non traités non issus d’hybridations ou de manipulations génétiques..</p>
     </div>
   </div>
 
 </div>
+<br>
