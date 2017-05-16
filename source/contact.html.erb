@@ -3,59 +3,68 @@ title: Sylvie Lelièvre, naturopathe - Contactez-moi
 description: Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a longtemps exercé comme infirmière et s'est spécialisée dans la micronutrition et le soin par l'alimentation.
 ---
 
+  <h1>Contactez-moi</h1>
+  <div class="row">
+    <div class="col s12 m5 center-align ">
+     <h3 class="h3-less-margin">Envoyer un message</h3>
+      <form action="https://formspree.io/slelievre55@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Votre nom" class="form-control" id="nom-utilisateur" required>
+        <input type="email" name="_replyto" placeholder="Votre email" class="form-control" id="email-utilisateur" required>
+        <textarea name="body" rows="8" width="100%" placeholder="Entrez ici votre message" class="form-control"></textarea>
+        <br>
+        <input type="hidden" name="_next" value="/">
+        <input type="submit" value="Envoyer" class="waves-effect waves-light btn right">
+      </form>
+      <br> <br>
+      <h4 >Vous pouvez aussi m'envoyer un email directement, il suffit de cliquer <a href="mailto:slelievre55@gmail.com" target="_blank" class="normal-link">ici</a>.</h4>
+    </div>
 
-<h1>Contactez-moi</h1>
-<div class="row">
-  <div class="col s12 m6 center-align ">
-   <h3>Envoyer un message</h3>
-    <form action="https://formspree.io/slelievre55@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Votre nom" class="form-control" id="nom-utilisateur" required>
-      <input type="email" name="_replyto" placeholder="Votre email" class="form-control" id="email-utilisateur" required>
-      <textarea name="body" rows="8" width="100%" placeholder="Entrez ici votre message" class="form-control"></textarea>
-      <br>
-      <input type="hidden" name="_next" value="/">
-      <input type="submit" value="Envoyer" class="waves-effect waves-light btn right">
-    </form>
-  </div>
 
-  <div class="col s12 m6 center-align ">
-  <h3>Adresse</h3>
-    <div class="adresse center-align">
-      <div class="adresse-nantes">
-        <p>1 rue Esnoult des Châtelets </p>
-        <p>44200 NANTES</p>
-
+  <!-- Maps -->
+    <div class="col s12 m7 center-align map-box">
+    <h3 class="h3-less-margin">Où me trouver?</h3>
+      <div class="map-txt">
+        <p>A NANTES : 1 rue Esnoult des Châtelets, 44200 NANTES</p>
+        <div id="map1"></div>
       </div>
-      <div class="adresse-les-herbiers">
-        <p>3 rue des Arts </p>
-        <p>Appt 004</p>
-        <p>85500 LES HERBIERS</p>
+      <br>
+      <div class="map-txt">
+        <p>AUX HERBIERS : 3 rue des Arts - Appt 004, 85500 LES HERBIERS </p>
+        <div id="map2"></div>
       </div>
     </div>
+    <!-- end maps -->
   </div>
 </div>
 
-<!-- Gmap integration test -->
 
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8JnU1NxMzAT2aOSFVo4iAqxu6X0fj2rI&callback=initMap"
-    async defer></script>
+<!-- Maps script -->
+
+  <script>
+    function initMap() {
+      var uluru = {lat: 47.19686069999999, lng: -1.5403165000000172};
+      var oloro = {lat: 46.8713435, lng: -1.0102240999999594};
+      var map1 = new google.maps.Map(document.getElementById('map1'), {
+        zoom: 15,
+        center: uluru
+      });
+      var map2 = new google.maps.Map(document.getElementById('map2'), {
+        zoom: 15,
+        center: oloro
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map1
+      });
+    }
+  </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOIaxoRa7wBsZNOXhAJPw7YLsih6T0hYU  &callback=initMap">
+  </script>
+
+<!-- end of maps script -->
 
 
-<!-- end -->
 
-
-<br>
-<br>
-  <h4 class="center-align">Vous pouvez aussi m'envoyer un email directement, il suffit de cliquer <a href="mailto:slelievre55@gmail.com" target="_blank" class="normal-link">ici</a>.</h4>
 
 

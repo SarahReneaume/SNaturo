@@ -14,4 +14,4 @@ gem 'materialize-sass'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'middleman-autoprefixer'
 
-gem 'figaro'
+
