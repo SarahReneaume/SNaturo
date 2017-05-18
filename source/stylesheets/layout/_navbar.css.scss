@@ -1,9 +1,9 @@
 nav{
   background-color: $nav-green;
-  .brand-logo{
-    padding: 0 15px;
-    font-family: 'Muli', sans-serif;
-    font-size: 25px;
+  ul{
+    width: 100%;
+    display : flex;
+    justify-content: space-around;
   }
 }
 
@@ -13,4 +13,22 @@ nav{
   font-weight: 500;
   }
 }
+
+.permanent-bar{
+  width: 100%;
+  background-color: white;
+  color: #3B2871;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 20px;
+
+    .permanent-bigger{
+      font-size: 40px;
+
+    }
+  }
+
 
