@@ -1,4 +1,4 @@
-// Spécialités look
+// Spécialités & parcours look
 
 .box{
   display: flex;
@@ -14,7 +14,26 @@
 
 .flex-txt{
   background-color: white;
-  padding : 30px 50px;
+  padding :10px 50px;
+}
+
+.parcours-text-bloc{
+  display: flex;
+
+}
+
+.flex-item-pres-text{
+  flex: 0 0 75%;
+  padding: 0 0 0 10px;
+}
+
+.flex-item-profil-pic{
+  flex: 0 0 25%;
+  padding : 0 20px;
+}
+
+.less-margin-h3{
+  margin:0 0 10px 0;
 }
 
 // Atelier look
@@ -53,3 +72,6 @@
 .img-column{
   height: auto;
 }
+
+
+
