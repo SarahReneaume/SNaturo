@@ -1,17 +1,5 @@
 nav{
   background-color: $nav-green;
-  ul{
-    width: 100%;
-    display : flex;
-    justify-content: space-around;
-  }
-}
-
-#nav-mobile{
-  a{
-  color: $nav-green;
-  font-weight: 500;
-  }
 }
 
 .permanent-bar{
@@ -29,6 +17,25 @@ nav{
       }
     }
   }
+
+#nav-mobile{
+  a{
+  color: $nav-green;
+  font-weight: 500;
+  }
+}
+
+.side-nav {
+  .collapsible-header{
+    padding: 0 32px !important;
+  }
+  .collapsible-body{
+    padding: 10px 18px;
+
+  }
+}
+
+
 
 
 
