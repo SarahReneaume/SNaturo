@@ -16,18 +16,17 @@ nav{
 
 .permanent-bar{
   width: 100%;
+  margin-bottom: 0;
   background-color: white;
   color: #FEAE3C;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  padding: 0 20px;
-
-    .permanent-bigger{
+  padding: 0 10px;
+    .permanent-logo{
       font-size: 40px;
-
+      a{
+        color: #FEAE3C;
+      }
     }
   }
 
