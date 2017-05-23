@@ -13,14 +13,17 @@
 
     <!-- Get Materialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
+     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Sylvie Lelièvre - Naturopathe" %></title>
     <meta name="description" content="<%= current_page.data.description || "Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a longtemps exercé comme infirmière et s'est spécialisée dans la micronutrition et le soin par l'alimentation, en particulier le cru." %>">
+
+
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
@@ -41,7 +44,5 @@
     <%= partial 'layouts/partials/footer' %>
 
        <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
 
   </body>
