@@ -1,6 +1,4 @@
-nav{
-  background-color: $nav-green;
-}
+// TOP INFO BAR
 
 .permanent-bar{
   width: 100%;
@@ -18,13 +16,25 @@ nav{
     }
   }
 
+// NAVBAR
+
+nav{
+  background-color: $nav-green;
+}
+
+ul.navbar-width{
+  display: flex;
+  justify-content: space-around;
+}
+
+//NAV MOBILE
+
 #nav-mobile{
   a{
   color: $nav-green;
   font-weight: 500;
   }
 }
-
 .side-nav {
   .collapsible-header{
     padding: 0 32px !important;
