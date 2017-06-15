@@ -17,18 +17,13 @@
   padding :10px 50px;
 }
 
-.parcours-text-bloc{
-  display: flex;
-
-}
-
 .flex-item-pres-text{
   flex: 0 0 75%;
   padding: 0 0 0 10px;
 }
 
 .flex-item-profil-pic{
-  flex: 0 0 25%;
+
   padding : 0 20px;
 }
 
@@ -71,6 +66,11 @@
 
 .img-column{
   height: auto;
+}
+
+.citation-couleur-bleu{
+  color: #00B0A3;
+  line-height: 1.5;
 }
 
 
