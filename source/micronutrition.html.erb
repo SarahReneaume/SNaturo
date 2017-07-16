@@ -2,33 +2,35 @@
 layout: home
 ---
 
-<div class="banner-subpage" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(<%= image_path "cru-1.jpg" %>);" alt="Légumes crus">
+<div class="banner-subpage" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(<%= image_path "drop.png" %>);" alt="gouttes">
   <h1 class= "white-text">Micronutrition</h1>
 </div>
 
 <div class="adjusted-container">
+      <br>
+      <div class="row">
+        <div class="col s12 l3">
+          <%= image_tag 'goutte.png', class: "img-goutte", alt: "goutte oligoéléments" %>
+          <div class="copyright-txt">©Laboratoire Nutergia. Livret OLIGOMAX distribué en
+          pharmacie. Tous droits de reproduction interdits.</div>
+        </div>
 
-  <div>
-    <br>
-     <p>La nourriture que nous ingérons de nos jours ne nous apporte plus autant de vitamines et de minéraux qu’auparavant. L’appauvrissement des sols, l’agriculture intensive donnent, pour exemple, des fruits beaucoup moins riches en vitamines C.
-    Chaque cellule de notre corps a besoin d’être nourrie pour se développer et fonctionner au mieux. Des cellules bien nourries entraineront un corps plus apte à se régénérer et à se réparer naturellement, une peau plus saine, un système digestif en bon état. </p>
-    <p> <b>L’objectif  de mon travail est de vous permettre de retrouver un état d’énergie, d’harmonie et de vitalité en stimulant les capacités d’auto-guérison de chacun, tout en respectant son rythme naturel.</b></p>
-    <br>
-    <p>Nous sommes tous différents et en fonction de notre mode de vie propre (alimentation, charge de travail, activité physique, pathologies, handicaps, etc), la manière dont nous nourrissons nos cellules change.</p>
-    <p>Nous sommes tous différents et en fonction de notre mode de vie propre (alimentation, charge de travail, activité physique, pathologies, handicaps, etc), la manière dont nous nourrissons nos cellules est également différente. <b>Les minéraux et les oligoéléments ne sont pas élaborés par l'organisme, pourtant nos cellules ne peuvent pas s'en passer.</b> Ils participent à la plupart des réctions chimiques qui ont lieu dans notre corps. Ce sont: </p>
-
-     <ul>
-       <li>- Les Eléments Traces Essentiels (ETE) ou oligo-éléments</li>
-       <li>- Les minéraux à dose pondérale (sodium, potassium, Calcium, Magnésium..)</li>
-       <li>- Les vitamines hydrosolubles (B et C) et liposolubles (A, D, E et K)</li>
-       <li>- Les acides aminés essentiels </li>
-       <li>- Les acides gras polyinsaturés essentiels</li>
-       <li>- L’insuffisance en certains micronutriments (catalyseurs et cofacteurs enzymatiques ) est à l’origine d’une perte des cellules et donc d’un mauvais rendement des fonctions métaboliques</li>
-       <li>- Les carences peuvent être à l’origine de la souffrance de la cellule qui ne peut plus assurer la tâche pour laquelle elle existe</li>
-     </ul>
-     <br>
-  </div>
-
-
-</div>
+        <div class="col s12 l9">
+           <p>La nourriture que nous ingérons de nos jours ne nous apporte plus autant de vitamines et de minéraux qu’auparavant. L’appauvrissement des sols, l’agriculture intensive donnent, pour exemple, des fruits beaucoup moins riches en vitamines C.
+           Chaque cellule de notre corps a besoin d’être nourrie pour se développer et fonctionner au mieux. Des cellules bien nourries entraineront un corps plus apte à se régénérer et à se réparer naturellement, une peau plus saine, un système digestif en bon état. <b>L’objectif  de mon travail est de vous permettre de retrouver un état d’énergie, d’harmonie et de vitalité en stimulant les capacités d’auto-guérison de chacun, tout en respectant son rythme naturel.</b></p>
+            <p>Nous sommes tous différents et en fonction de notre mode de vie propre (alimentation, charge de travail, activité physique, pathologies, handicaps, etc), la manière dont nous nourrissons nos cellules change.</p>
+            <p>Nous sommes tous différents et en fonction de notre mode de vie propre (alimentation, charge de travail, activité physique, pathologies, handicaps, etc), la manière dont nous nourrissons nos cellules est également différente. <b>Les minéraux et les oligoéléments ne sont pas élaborés par l'organisme, pourtant nos cellules ne peuvent pas s'en passer.</b> Ils participent à la plupart des réctions chimiques qui ont lieu dans notre corps.</p>
+        </div>
+      </div>
+      <p>Ces nutriments indispensables sont: </p>
+      <ul>
+        <li>- Les Eléments Traces Essentiels (ETE) ou oligo-éléments. <%= link_to 'En savoir plus', 'http://www.nutergia.com/fr/nutergia-votre-expert-conseil/dossiers-bien-etre/mineraux-et-oligoelements.php', target:"_blank" %></li>
+        <li>- Les minéraux à dose pondérale (sodium, potassium, Calcium, Magnésium..)</li>
+        <li>- Les vitamines hydrosolubles (B et C) et liposolubles (A, D, E et K)</li>
+        <li>- Les acides aminés essentiels </li>
+        <li>- Les acides gras polyinsaturés essentiels. <%= link_to 'En savoir plus', 'http://www.nutergia.com/fr/nutergia-votre-expert-conseil/dossiers-bien-etre/acides-gras.php', target:"_blank" %></li>
+      </ul>
+      <br>
+      <p>L’insuffisance en certains micronutriments (catalyseurs et cofacteurs enzymatiques ) est à l’origine d’une perte des cellules et donc d’un mauvais rendement des fonctions métaboliques. Les carences peuvent être à l’origine de la souffrance de la cellule qui ne peut plus assurer la tâche pour laquelle elle existe</p>
+      </div>
 <br>
