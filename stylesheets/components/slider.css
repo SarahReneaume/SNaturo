@@ -1,0 +1,11 @@
+/* line 1, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/slider.css.scss */
+.slider-soon {
+  height: 400px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white; }
+
+/* line 8, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/slider.css.scss */
+.slider-title {
+  font-size: 40px;
+  color: white; }

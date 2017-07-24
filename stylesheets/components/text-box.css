@@ -1,0 +1,85 @@
+/* line 3, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 7, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.flex-img {
+  width: 20%; }
+
+/* line 11, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.flex-img-bigger {
+  width: 20%; }
+
+/* line 15, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.flex-txt {
+  background-color: white;
+  padding: 10px 50px; }
+
+/* line 20, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.flex-item-pres-text {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75%;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  padding: 0 0 0 10px; }
+
+/* line 25, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.flex-item-profil-pic {
+  padding: 0 20px; }
+
+/* line 30, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.less-margin-h3 {
+  margin: 0 0 10px 0; }
+
+/* line 36, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.banner-subpage {
+  height: 250px;
+  background-size: cover !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 50, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.border-left {
+  padding: 0 0 0 10px;
+  border-left: 1px solid #9BBD9C; }
+
+/* line 56, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.step-num {
+  font-size: 20px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #006E74;
+  opacity: 0.4;
+  margin-bottom: 15px;
+  padding: 5px 0; }
+
+/* line 67, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.img-column {
+  height: auto; }
+
+/* line 71, /Users/sarah/code/SarahReneaume/SNaturo/source/stylesheets/components/text-box.scss */
+.citation-couleur-bleu {
+  color: #00B0A3;
+  line-height: 1.5; }

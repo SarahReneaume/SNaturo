@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Get Materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Sylvie Lelièvre - Naturopathie, Micronutrition et Alimentation Crue</title>
+    <meta name="description" content="Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a longtemps exercé comme infirmière et s'est spécialisée dans la micronutrition et le soin par l'alimentation, en particulier le cru.">
+
+
+
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="index">
+    <div class="page-wrap">
+      <!-- <div class="permanent-bar">
+  <div class="permanent-presentation">
+    <div class = "permanent-bigger">Sylvie Lelièvre </div>
+    <div>Naturopathe & Infirmière</div>
+  </div>
+  <div class="permanent-contact right-align">
+    <div >Consultation à Nantes & aux Herbiers</div>
+    <div>Tel : 06.13.50.05.82</div>
+  </div>
+</div> -->
+
+<!-- <div class="permanent-bar">
+    <div class = "permanent-bigger">Sylvie Lelièvre </div>
+    <div class="permanent-details left-align">
+      <div>Naturopathe & Infirmière - Tel : 06.13.50.05.82</div>
+      <div >Consultation à Nantes (44) & aux Herbiers (85)</div>
+    </div>
+</div> -->
+
+
+
+  <div class="row permanent-bar valign-wrapper">
+     <div class = "permanent-logo left-align col s12 m3"> <a data-info="index" href="./">Sylvie Lelièvre</a></div>
+      <div class="permanent-details right-align col s12 m9"> Naturopathe & Infirmière - Consultation à Nantes (44) & aux Herbiers (85) - Tel : 06.13.50.05.82
+    </div>
+  </div>
+
+<!-- Top Menu -->
+
+<nav role="navigation">
+  <div class="nav-wrapper">
+  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="navbar-width hide-on-med-and-down">
+      <li><a data-info="index" href="./">Accueil</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Mes Spécialités<i class="material-icons right">arrow_drop_down</i></a></li>
+      </li>
+      <li><a data-info="consultations" href="consultations.html">Consultations</a></li>
+      <li><a data-info="parcours" href="parcours.html">Qui suis-je?</a></li>
+      <li><a data-info="contact" href="contact.html">Contact</a></li>
+      <li class="hide"><a data-info="ateliers" href="ateliers.html">Mes Ateliers</a></li>
+    </ul>
+
+<!-- Nav mobile -->
+
+    <ul id="nav-mobile" class="side-nav">
+      <li ><a data-info="index" href="./">Accueil</a></li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">Mes Spécialités<i class="material-icons right">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                 <li><a href="nutrition.html">Nutrition</a></li>
+                  <li><a href="micronutrition.html">Micronutrition</a></li>
+                  <li><a href="gemmotherapie.html">Gemmothérapie</a></li>
+                  <li><a class="smaller-text-sidebar" href="parcours-de-vie.html">Accompagnement au parcours de vie</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li><a data-info="consultations" href="consultations.html">Consultations</a></li>
+      <li><a data-info="parcours" href="parcours.html">Qui suis-je?</a></li>
+      <li><a data-info="contact" href="contact.html">Contact</a></li>
+      <li class="hide"><a data-info="ateliers" href="ateliers.html">Mes Ateliers</a></li>
+    </ul>
+</nav>
+
+<!--   Dropdown menu -->
+
+<ul id="dropdown1" class="dropdown-content">
+  <li><a data-info="nutrition" href="nutrition.html">Nutrition</a></li>
+  <li class="divider"></li>
+  <li><a data-info="micronutrition" href="micronutrition.html">Micronutrition</a></li>
+  <li class="divider"></li>
+  <li><a data-info="gemmotherapie" href="gemmotherapie.html">Gemmothérapie</a></li>
+  <li class="divider"></li>
+  <li ><a data-info="parcours-de-vie" href="parcours-de-vie.html">Accompagnement au parcours de vie</a></li>
+</ul>
+
+  <!-- JS -->
+
+<script>
+
+    $(document).ready(function(){
+      // Sidebar
+      $(".button-collapse").sideNav({
+      menuWidth: 350, // Default is 300
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    });
+
+
+      // Dropdown
+      $('.dropdown-button').dropdown({
+          belowOrigin: true, // Displays dropdown below the button
+          hover: true // Activate on hover
+        }
+      );
+  });
+</script>
+
+
+
+
+        <!-- SLIDER CODE -->
+
+<div class="slider hide-on-small-only">
+    <ul class="slides">
+        <li>
+            <img src="https://static.pexels.com/photos/23388/pexels-photo.jpg" class="slider-soon">
+            <div class="caption right-align ">
+                <h1 class= "slider-title">Nutrition</h1>
+            </div>
+        </li>
+        <li>
+            <div class="slider-soon" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(images/micronutrition.jpeg);" alt="Réseau de gouttes">
+            <div class="caption right-align">
+                <h1 class= "slider-title">Micronutrition</h1>
+            </div>
+        </li>
+        <li>
+            <div class="slider-soon" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(images/bourgeon.jpg);" alt="bourgeon">
+            <div class="caption right-align">
+                <h1 class= "slider-title">Gemmothérapie</h1>
+            </div>
+        </li>
+        <li>
+            <div class="slider-soon" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(images/path.jpeg);" alt="chemin dans la nature">
+            <div class="caption right-align">
+                <h1 class= "slider-title" >Accompagnement au Parcours de Vie</h1>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!-- TEXT/PIC BLOC 1 -->
+
+
+  <h3 class = "center-align">Bienvenue !</h3>
+  <div class="row presentation-bloc">
+    <div class ="col s12 m3">
+      <img class="avatar-big" alt="Sylvie" src="images/user.png" />
+     <!--  <div class="video-container">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/h8eIttbSUC4" frameborder="0" allowfullscreen></iframe>
+      </div> -->
+    </div>
+    <div class ="col s12 m9 padding-right">
+      <div>
+      <p><strong>Prendre soin de son corps, c’est aussi être bien dans sa tête.</strong> Ce sont le corps et l’esprit qui nous définissent en tant qu’être. Dans l'Antiquité déjà, Homère préconisait « <i>un esprit sain dans un corps robuste</i> ».</p>
+      <p>Chacun de nous sait que de grandes émotions peuvent rendre notre corps malade ou le faire souffrir. Une souffrance du corps peut aussi nous mettre très mal à l’aise émotionnellement ou psychologiquement. Notre corps est constitué de dizaines de milliers de milliards de cellules. Pour se maintenir en bonne santé, il est indispensable de  bien nourrir toutes ces cellules et de leur apporter des éléments indispensables à leur fonctionnement.</p>
+      <br>
+      <p><strong>Tout est question d’équilibre.</strong> Travailler sur son corps ou son esprit nécessite d’agir et de prendre soin de soi.  Il s’agit de devenir acteur de notre propre santé pour tendre vers cet équilibre.</p>
+      <p>La nature peut nous y aider  grandement.  Je vous apporte avec la naturopathie des moyens naturels  (alimentation, micronutrition et  gemmothérapie) pour renforcer votre organisme en nourrissant vos cellules et optimiser leur fonctionnement. Mais pour cela, j’ai besoin de vous car cela nécessite des efforts. Je vous accompagne en tant que naturopathe dans les changements à mettre en place que vous soyez en bonne santé, malade ou handicapé.</p>
+      <p>Prenez soin de vous.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- QUOTATION 1 -->
+
+<div class="banner-wrap-color center-align">
+  <h4>« Notre corps est la barque qui nous portera jusqu’à l’autre rive de l’océan de la vie. Il faut en prendre soin. »  Swami Vivekananda </h4>
+</div>
+
+<!-- CATEGORIES CODE -->
+
+<div class="home-container">
+  <div class="row">
+    <div class="col s12 m6 l4 center-align">
+      <h3>Nutrition</h3>
+      <div>
+        <div>Alimentation santé</div>
+        <div>Equilibre alimentaire</div>
+        <div>Alimentation consciente</div>
+        <div>Respect de vos choix</div>
+      </div>
+    </div>
+    <div class="col s12 m6 l4 center-align">
+      <h3>Micronutrition</h3>
+      <div>
+        <div>Oligoéléments</div>
+        <div>Vitamines</div>
+        <div>Acides gras essentiels</div>
+        <div>Minéraux</div>
+      </div>
+    </div>
+    <div class="col s12 m12 l4 center-align">
+       <h3>Gemmothérapie</h3>
+       <div>
+        <div>Bourgeons</div>
+        <div>Jeunes pousses</div>
+        <div>Radicelles</div>
+        <div>Macérats glycérinés</div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- QUOTATION 2 CODE -->
+
+<div class="banner-wrap-color center-align">
+  <h4>« Pour avancer et s’accomplir dans la vie, on a besoin de croire et d’être compris, de sentir que quelqu’un a confiance en nous » Reine Malouin </h4>
+</div>
+
+<!-- TEXT/PIC BLOC 1 -->
+
+<div class="adjusted-container">
+  <h3>Qu'est-ce que la naturopathie?</h3>
+  <div class="row">
+    <div class ="col s12 m7">
+      <p>La naturopathie fait partie des médecines naturelles reconnues comme « non conventionnelles » par le Parlement Européen et comme « complémentaires » par l’Organisation Mondiale de la Santé (OMS). Elle vise à équilibrer le fonctionnement de l’organisme par des moyens jugés « naturels » : réforme alimentaire, jeûne, , phytothérapie, exercices respiratoires …..
+      <br>
+      La naturopathie s’inscrit dans une dynamique de complémentarité avec la médecine conventionnelle et les autres thérapies naturelles en vue de la préservation ou du retour à la santé.Sa démarche est axée sur la prévention par l’éducation et la responsabilisation où chacun devient acteur de sa propre santé. Elle ne remplace pas un traitement médical en cours ni un suivi psychologique.</p>
+    </div>
+    <div class ="col s12 m5">
+      <img class="responsive-img" alt="Amandes" src="images/Almonds.png" />
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="page-footer">
+  <div> © Copyright <a target="_blank" href="http://www.sarahreneaume.com">Sarah Reneaume</a></div>
+  <div>Site de Sylvie Lelièvre, Naturopathe à Nantes et aux Herbiers</div>
+  <div><a target="_blank" href="mentions-legales.html">Mentions légales</a></div>
+</footer>
+
+
+       <!--Import jQuery before materialize.js-->
+
+  </body>
