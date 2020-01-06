@@ -4,8 +4,7 @@ description: Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a 
 ---
 
   <h1>Contactez-moi</h1>
-  <div class="row">
-    <div class="col s12 m5 center-align ">
+
      <h3 class="h3-less-margin">Envoyer un message</h3>
       <form action="https://formspree.io/slelievre55@gmail.com" method="POST">
         <input type="text" name="name" placeholder="Votre nom" class="form-control" id="nom-utilisateur" required>
@@ -18,53 +17,4 @@ description: Sylvie Lelièvre est naturopathe à Nantes et aux Herbiers. Elle a 
       <br> <br>
       <h4 >Vous pouvez aussi m'envoyer un email directement, il suffit de cliquer <a href="mailto:slelievre55@gmail.com" target="_blank" class="normal-link">ici</a>.</h4>
     </div>
-
-
-  <!-- Maps -->
-    <div class="col s12 m7 center-align map-box">
-    <h3 class="h3-less-margin">Où me trouver?</h3>
-      <div class="map-txt">
-        <p>A NANTES : 1 rue Esnoult des Châtelets, 44200 NANTES</p>
-        <div id="map1"></div>
-      </div>
-      <br>
-      <div class="map-txt">
-        <p>AUX HERBIERS : 3 rue des Arts - Appt 004, 85500 LES HERBIERS </p>
-        <div id="map2"></div>
-      </div>
-    </div>
-    <!-- end maps -->
-  </div>
-</div>
-
-
-<!-- Maps script -->
-
-  <script>
-    function initMap() {
-      var uluru = {lat: 47.19686069999999, lng: -1.5403165000000172};
-      var oloro = {lat: 46.8713435, lng: -1.0102240999999594};
-      var map1 = new google.maps.Map(document.getElementById('map1'), {
-        zoom: 15,
-        center: uluru
-      });
-      var map2 = new google.maps.Map(document.getElementById('map2'), {
-        zoom: 15,
-        center: oloro
-      });
-      var marker = new google.maps.Marker({
-        position: uluru,
-        map: map1
-      });
-    }
-  </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOIaxoRa7wBsZNOXhAJPw7YLsih6T0hYU  &callback=initMap">
-  </script>
-
-<!-- end of maps script -->
-
-
-
-
 
